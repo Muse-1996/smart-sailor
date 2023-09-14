@@ -1,0 +1,33 @@
+{
+  "name": "be-free",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
+  },
+  "dependencies": {
+    "dom-to-image": "^2.6.0",
+    "dom-to-image-more": "^3.1.6",
+    "html2canvas": "^1.4.1",
+    "moment": "^2.29.4",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4",
+    "vue-color-kit": "^1.0.6",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@arco-design/web-vue": "^2.51.1",
+    "@tsconfig/node18": "^18.2.0",
+    "@types/node": "^18.17.5",
+    "@vitejs/plugin-vue": "^4.3.1",
+    "@vue/tsconfig": "^0.4.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "~5.1.6",
+    "vite": "^4.4.9",
+    "vue-tsc": "^1.8.8"
+  }
+}
